@@ -1,0 +1,48 @@
+{
+  "name": "local-schedule",
+  "version": "0.1.0",
+  "description": "NBA schedule with local times.",
+  "author": "Michael Xander",
+  "license": "MIT",
+  "repository": "https://github.com/michaelx/local-schedule",
+  "homepage": ".",
+  "dependencies": {
+    "date-fns": "^2.6.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
+    "styled-components": "^4.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint:js": "eslint .",
+    "lint:css": "stylelint './src/**/*.js'"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 2 chrome version",
+      "last 2 firefox version",
+      "last 2 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "stylelint": "^11.1.1",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-order": "^3.1.1",
+    "stylelint-processor-styled-components": "^1.8.0"
+  }
+}
