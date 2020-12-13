@@ -10,14 +10,14 @@ const Schedule = () => {
 
   useEffect(() => {
     const fetchGames = async () => {
-      const response = await fetch(`${NBA}v1/2019/schedule.json`);
+      const response = await fetch(`${NBA}v1/2020/schedule.json`);
       const data = await response.json();
 
       setGames(data.league.standard);
     };
 
     const fetchTeams = async () => {
-      const response = await fetch(`${NBA}v2/2019/teams.json`);
+      const response = await fetch(`${NBA}v2/2020/teams.json`);
       const data = await response.json();
 
       setTeams(data.league.standard);
